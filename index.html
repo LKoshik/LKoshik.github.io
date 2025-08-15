@@ -180,13 +180,14 @@
 
         /* Hero Section */
         .hero {
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            padding: 80px 2rem 0;
+            padding: 80px 2rem 2rem;
             position: relative;
+            margin-bottom: 2rem;
         }
 
         .hero-content {
@@ -334,7 +335,7 @@
         }
 
         /* Sections */
-        section {
+        section:not(.hero) {
             padding: 5rem 2rem;
             max-width: 1200px;
             margin: 0 auto;
@@ -668,6 +669,8 @@
             
             .hero {
                 padding-top: 120px;
+                padding-bottom: 3rem;
+                margin-bottom: 1rem;
             }
         }
     </style>
@@ -692,8 +695,8 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Alex Morgan</h1>
-            <div class="subtitle">Full Stack Developer & Creative Thinker</div>
+            <h1>Koshik Lekkala</h1>
+            <div class="subtitle">Full Stack Developer & AI/ML Enthusiast</div>
             <div class="cta-buttons">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
                 <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -705,10 +708,14 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="about-image">
-                👨‍💻
+                <img src="Profile_pic.jpg">
             </div>
             <div class="about-text">
-                <p>I'm a passionate full-stack developer with a love for creating beautiful, functional web experiences. With over 5 years of experience in the industry, I specialize in modern JavaScript frameworks, responsive design, and user experience optimization.</p>
+                <p>I’m a B.Tech Computer Science student currently in my final year, actively learning Data Structures and Algorithms and exploring full-stack development.
+
+                    I recently built my first project and started sharing my learning journey online. I’m passionate about improving my skills every day and eager to contribute to real-world projects and internships.
+                    
+                    Looking forward to connecting with peers, mentors, and opportunities to grow as a developer.</p>
                 <br>
                 <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in writing clean, maintainable code and creating solutions that make a real impact.</p>
             </div>
@@ -792,13 +799,13 @@
             <p>I'm always interested in new opportunities and exciting projects. Whether you have a specific project in mind or just want to connect, I'd love to hear from you!</p>
             <div class="contact-info">
                 <div class="contact-item">
-                    📧 alex@example.com
+                    📧 koshik.work@gmail.com
                 </div>
                 <div class="contact-item">
-                    📱 +1 (555) 123-4567
+                    📱 +91 8688085991
                 </div>
                 <div class="contact-item">
-                    🌐 linkedin.com/in/alexmorgan
+                    🌐 linkedin.com/in/koshik-lekkala
                 </div>
             </div>
         </div>
